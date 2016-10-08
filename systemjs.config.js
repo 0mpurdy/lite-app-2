@@ -24,7 +24,7 @@
       // other libraries
       'rxjs':                      'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api',
-      'lite-module':               'npm:lite-module/dist/index.js'
+      'lite-module':               'npm:lite-module/'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -40,6 +40,7 @@
         defaultExtension: 'js'
       },
       'lite-module': {
+        main: './dist/index.js',
         defaultExtension: 'js'
       }
     }
